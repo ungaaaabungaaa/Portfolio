@@ -2,7 +2,8 @@ body{
   
   text-overflow: ellipsis;
   color: white;
-  background-color: #1A1C1B;
+  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
+  background-size: 22px 22px;
   margin: 0;
   overflow: hidden;
   padding: 0;
@@ -27,4 +28,31 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+
+
+/* Font Sizes */
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 2.8em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  color: #FFFFFF;
+}
+
+/* Font Sizes */
 
