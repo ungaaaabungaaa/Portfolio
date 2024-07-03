@@ -23,6 +23,17 @@ body{
   background: transparent;
 }
 
+
+
+.libre-franklin-h1
+{
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 64px;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .yeseva-one-regular {
   font-family: "Yeseva One", serif;
   font-weight: 400;

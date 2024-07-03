@@ -4,9 +4,9 @@
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
-    background-size: 12%; /* Doubles the width of the image */
-    background-image: url(../src/resources/SR-71half.webp);
-    background-position: center right; /* Moves the right half of the image to the right side */
+    background-size: 12%,26%; /* Doubles the width of the image */
+    background-image: url(../src/resources/SR-71half.webp),url(../src/resources/RicksCar.webp);
+    background-position: center right, left 4% top 12.2%; /* Moves the right half of the image to the right side */
     display: flex;
     align-items: center;
     justify-content: center;

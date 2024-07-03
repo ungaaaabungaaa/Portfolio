@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div id='hero' className='hero'>
-      <h1 className='yeseva-one-regular'>Coming Soon</h1>
+      <h1 className='libre-franklin-h1'>Coming Soon</h1>
     </div>
   );
 }
