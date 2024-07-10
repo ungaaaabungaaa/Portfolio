@@ -31,8 +31,30 @@ body{
   font-optical-sizing: auto;
   font-size: 64px;
   font-weight: 600;
+  margin: 0;
   font-style: normal;
 }
+
+.libre-franklin-h2
+{
+  font-family: "Libre Franklin", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.full_width
+{
+  width: 100%;
+}
+
+.text_align_end
+{
+  text-align: end;
+}
+
 
 .yeseva-one-regular {
   font-family: "Yeseva One", serif;
