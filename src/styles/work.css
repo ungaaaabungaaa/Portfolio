@@ -1,0 +1,14 @@
+.work
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../resources//buran.webp);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: left bottom;
+}
+
