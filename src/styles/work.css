@@ -32,7 +32,7 @@
     padding-bottom: 0.4%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: row;
 }
 
@@ -55,7 +55,26 @@
     padding-right: 10.1%;
     border: white;
     border-radius: 0.6rem;
-    margin-left: 4.1%;
+    margin-left: 2.1%;
     cursor: pointer;
     box-sizing: border-box;
+}
+
+.resume_layout {
+    width: 70%;
+    padding: 0 2.1%; /* Standardize padding (top, bottom: 0; left, right: 2.1%) */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.my_resume
+{
+    margin-right: 1.2%;
+    cursor: pointer;
+}
+
+#resume
+{
+    cursor: pointer;
 }
