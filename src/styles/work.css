@@ -6,9 +6,56 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(../resources//buran.webp);
+    background-image: url(../resources/buran.webp);
     background-repeat: no-repeat;
-    background-size: 10%;
+    background-size: 14%;
     background-position: left bottom;
 }
 
+.work_section
+{
+    width: 52%;
+    height: auto;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+
+.work_title
+{
+    font-weight: bolder;
+    margin-bottom: 2.1%;
+}
+
+.work_inputs {
+    width: 100%;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.input {
+    width: 70%;
+    height: 3.2rem; /* Set a specific height */
+    background-color: #FFF;
+    padding: 0 2.1%; /* Standardize padding (top, bottom: 0; left, right: 2.1%) */
+    border-radius: 0.6rem;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.send {
+    height: 3.2rem; /* Match the input height */
+    background-color: #FFF;
+    margin-bottom: 0;
+    padding-left: 10.1%;
+    padding-right: 10.1%;
+    border: white;
+    border-radius: 0.6rem;
+    margin-left: 4.1%;
+    cursor: pointer;
+    box-sizing: border-box;
+}

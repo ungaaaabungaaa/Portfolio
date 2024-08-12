@@ -1,0 +1,11 @@
+.marquee
+{
+    background-color: white;
+}
+
+.marquee_text
+{
+    color: black;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}

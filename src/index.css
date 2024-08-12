@@ -1,14 +1,14 @@
 body{
-  
   text-overflow: ellipsis;
   color: white;
   background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
   background-size: 22px 22px;
   margin: 0;
-  overflow: hidden;
   padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
   width: 100vw;
-  height: 100vh;
+  height: auto;
   font-family: "Libre Franklin", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
