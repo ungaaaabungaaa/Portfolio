@@ -1,5 +1,6 @@
 .hero
 {
+    display: flex;
     width: 100vw;
     height: 92vh;
     background-image: url(../resources/SR-71half.webp);
@@ -7,3 +8,4 @@
     background-size: 10%;
     background-repeat: no-repeat;
 }
+
