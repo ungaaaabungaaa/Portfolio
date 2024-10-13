@@ -1,4 +1,12 @@
-body{
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,body{
   text-overflow: ellipsis;
   color: white;
   background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
