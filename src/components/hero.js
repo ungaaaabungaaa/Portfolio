@@ -4,19 +4,13 @@ import '../styles/icons.css';
 
 function Hero() {
 
-
-
-
-
-
-
   return (
     <>
     <div className='hero'>
       <div className='hero_titles'>
         <h1><sup><span class="ph--star-four"></span></sup> SYED ABDUL MUQEETH</h1>
         <h2>Mechatronics Enginner</h2>
-        <h3>Full Stack Developer | Machine Learning Engineer | Data Scientist | Cybersecurity Specialist | DevOps Engineer | UI/UX Designer | Project Manager | IT Support Specialist | Digital Marketing Expert|</h3>
+        <h3>Full Stack Developer | Machine Learning Engineer | Data Scientist | Cybersecurity Specialist | DevOps Engineer | UI/UX Designer | Project Manager | IT Support Specialist | Digital Marketing Expert |</h3>
       </div>
       <div className='hero_accordion_section'>
         <div className='hero_accordion_section_1'>
@@ -40,7 +34,7 @@ function Hero() {
 
         </div>
         <div className='hero_accordion_section_2'>
-          <h4>Professional<sup><span class="mdi--work-outline"></span></sup></h4>
+          <h4>Professional<sup><span class="mdi--office-building"></span></sup></h4>
           <br></br>
           <ul>
             <li><p>Full Stack Web Developer | Digital Marketing | SEO | Data Analytics  <br></br> Ammas Pastries® Pvt LTD <br></br> Bengaluru, India <br></br> 2024 FullTime </p></li>
@@ -56,21 +50,24 @@ function Hero() {
         <h4>Research<sup><span class="mdi--search"></span></sup></h4>
           <br></br>
           <ul>
-            <li><p>Predictive Maintenance using Machine Learning </p></li>
+            <li><p>Predictive Maintenance using Machine Learning <br></br> ResearchGate | Figshare </p></li>
             <br></br>
-            <li><p>Swarm Intelligence & Distributed Robotics</p></li>
+            <li><p>Swarm Intelligence & Distributed Robotics <br></br> ResearchGate | Figshare </p></li>
             <br></br>
-            <li><p>Generative AI for Design & Manufacturing</p></li>
+            <li><p>Generative AI for Design & Manufacturing <br></br> ResearchGate | Figshare </p></li>
             <br></br>
-            <li><p>Advanced Prosthetics with AI & Machine Learning</p></li>
-            <br></br>
-            <li><p>Robotic Exoskeletons for Enhanced Soldier Performance</p></li>
-            <br></br>
-            <li><p>Psychological Resilience Training Using Virtual Reality</p></li>
-            <br></br>
-            <li><p><strong>+35 Reasearch</strong></p></li>
+            <li><p><strong>+17 Reasearch</strong></p></li>
           </ul>
-          <br></br>
+          <h4>Articles <sup><span class="mdi--pencil-outline"></span></sup> </h4>
+            <br></br>
+            <ul>
+              <li><p>The Science of Emotions <br></br> Medium 2024 </p></li>
+              <br></br>
+              <li><p>Cognitive Biases in Decision-Making <br></br> Medium 2024 </p></li>
+              <br></br>
+              <li><p><strong>+21 Articles</strong></p></li>
+            </ul>
+            <br></br>    
         </div>
         <div className='hero_accordion_section_4'>
           <h4>Projects <sup><span class="mdi--robot-love-outline"></span></sup></h4>
@@ -91,29 +88,17 @@ function Hero() {
         <h4>Certifications<sup><span class="mdi--certificate-outline"></span></sup></h4>
             <br></br>
             <ul>
-              <li><p>UX Design Certificate <br></br>Google</p></li>
+              <li><p> <strong>Google Certificatied</strong>  <br></br> UX Design <br></br>Digital Marketing <br></br> E-Commerce <br></br> Data Analytics  <br></br> AI-Powered Performance Ads <br></br> IT Support <br></br> Project Management  <br></br> Business Intelligence <br></br> Cybersecurity  <br></br> Cloud Engineer </p> </li>
               <br></br>
-              <li><p>Digital Marketing & E‑Commerce Certificate <br></br>Google </p></li>
+              <li><p><strong>MicroSoft Certificatied</strong> <br></br>Azure Developer Associate <br></br> Cybersecurity Architect Expert </p></li>
               <br></br>
-              <li><p>Data Analytics Certificate<br></br>Google</p></li>
+              <li><p><strong>IBM Certificatied</strong> <br></br>Full Stack Software Developer<br></br> Data Analyst <br></br> DevOps & Software Engineering <br></br> Data Engineering  <br></br> Deep Learning  </p></li>
               <br></br>
+             
               <li><p><strong>+32 Certificate's</strong></p></li>
             </ul>
             <br></br>
-        <h4>Articles <sup><span class="mdi--pencil-outline"></span></sup> </h4>
-            <br></br>
-            <ul>
-              <li><p>The Science of Emotions <br></br> Medium 2024 </p></li>
-              <br></br>
-              <li><p>Cognitive Biases in Decision-Making <br></br> Medium 2024 </p></li>
-              <br></br>
-              <li><p>Resilient Cities <br></br> Medium 2024</p></li>
-              <br></br>
-              <li><p>Robotics in Rehabilitation <br></br> Linkedin 2024</p></li>
-              <br></br>
-              <li><p><strong>+21 Articles</strong></p></li>
-            </ul>
-          <br></br>    
+            
 
 
         </div>
