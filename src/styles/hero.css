@@ -6,7 +6,6 @@
     flex-direction: column;
     width: 100vw;
     padding-top: 6.1rem;
-    padding-bottom: 2.1rem;
     height: auto;
     background-image: url(../resources/SR-71half.webp);
     background-position: right center;
@@ -45,6 +44,14 @@
     padding-top: 0.4rem;
     break-inside: avoid;
     padding-bottom: 0.4rem;
+}
+
+.hero h4
+{
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 0.4rem;
+    break-inside: avoid;
 }
 
 .hero_accordion_section

@@ -13,8 +13,6 @@ html,body{
   background-size: 22px 22px;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
   width: 100vw;
   height: auto;
   font-family: "Libre Franklin", sans-serif;
@@ -29,6 +27,12 @@ html,body{
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent;
+}
+
+ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
 }
 
 
