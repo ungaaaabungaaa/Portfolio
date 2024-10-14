@@ -91,11 +91,11 @@ function Hero() {
         <h4>Certifications<sup><span class="mdi--certificate-outline"></span></sup></h4>
             <br></br>
             <ul>
-              <li><p>Google UX Design Certificate</p></li>
+              <li><p>UX Design Certificate <br></br>Google</p></li>
               <br></br>
-              <li><p>Digital Marketing & E‑Commerce Certificate</p></li>
+              <li><p>Digital Marketing & E‑Commerce Certificate <br></br>Google </p></li>
               <br></br>
-              <li><p>Google Data Analytics Certificate</p></li>
+              <li><p>Data Analytics Certificate<br></br>Google</p></li>
               <br></br>
               <li><p><strong>+32 Certificate's</strong></p></li>
             </ul>
