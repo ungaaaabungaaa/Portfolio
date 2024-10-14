@@ -9,7 +9,7 @@
     height: auto;
     background-image: url(../resources/SR-71half.webp);
     background-position: right center;
-    background-size: 10%;
+    background-size: 10% ;
     background-repeat: no-repeat;
 }
 
@@ -98,8 +98,45 @@
 {
     grid-column-start: 5;
     height: 450px;
-   
 }
+
+.hero_ask
+{
+    min-width: 58%;
+    height: auto;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ask
+{
+    background-color: white;
+    width: 100%;
+    border-radius: 1rem;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.6rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#input-ask
+{
+    width: 86%;
+    font-size: large;
+    outline: none;
+    border: none;
+    text-align: end;
+}
+
+
 
 
 

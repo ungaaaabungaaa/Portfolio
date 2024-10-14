@@ -103,6 +103,17 @@ function Hero() {
 
         </div>
       </div>
+      <div className='hero_ask'>
+        <div className='ask'>
+          <span class="ci--coffe-to-go"></span>
+          <input id='input-ask'
+           placeholder='Ask Me Something ?' 
+           maxLength="240"></input>
+           <span class="ph--star-four-bold"></span>
+        </div>
+        <small>Can make mistakes. Check important info.</small>
+      </div>
+      
 
       
     </div>
