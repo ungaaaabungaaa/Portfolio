@@ -8,7 +8,7 @@ function Hero() {
     <>
     <div className='hero'>
       <div className='hero_titles'>
-        <h1><sup><span class="ph--star-four"></span></sup> SYED ABDUL MUQEETH</h1>
+        <h1><sup><span className="ph--star-four"></span></sup> SYED ABDUL MUQEETH</h1>
         <h2>Mechatronics Enginner</h2>
         <h3>Full Stack Developer | Machine Learning Engineer | Data Scientist | Cybersecurity Specialist | DevOps Engineer | UI/UX Designer | Project Manager | IT Support Specialist | Digital Marketing Expert |</h3>
       </div>
