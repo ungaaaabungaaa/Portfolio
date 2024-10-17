@@ -1,0 +1,112 @@
+.images
+{
+    height: auto;
+    object-fit: cover;
+}
+
+
+.Raspberry_Layout
+{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 43% 43% 14%;
+    height: auto;
+    background-size: 12%;
+    background-image: url(../resources/pi/Camera.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 10%;
+    border-bottom: 0.2rem white solid; 
+}
+
+.Raspberry_Layout_1
+{
+    grid-column-start: 1;
+    width: 100%;
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Raspberry_Layout_2
+{
+    grid-column-start: 2;
+    width: 100%;
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+    height: 100%;
+    border-right: 0.2rem white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.Raspberry_Layout_2 h4
+{
+   width: 55%;
+   text-align: start;
+}
+
+.Raspberry_Layout_3
+{
+    grid-column-start: 3;
+    display: flex;
+    width: 100%;
+    padding-top: 2.1rem;
+    padding-bottom: 2.1rem;
+    padding-top: 4.1rem;
+    align-self: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Raspberry_Layout_3 p
+{
+   margin-left: 1.1rem;
+}
+
+.Raspberry_Layout h4
+{
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 0.4rem;
+    break-inside: avoid;
+}
+
+.Raspberry_Layout p
+{
+    width: 52%;
+}
+
+#pi_image
+{
+    width: 45%;
+}
+
+
+#pi_image_pi_board
+{
+    width: 65%;
+}
+
+#go_pi_image
+{
+    width: 42%;
+}
+
+#wifi_image
+{
+    width: 72%;
+}
+
+#linefollowingcircute
+{
+    width: 32%;
+}
+
