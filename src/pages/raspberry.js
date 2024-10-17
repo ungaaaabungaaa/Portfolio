@@ -7,6 +7,7 @@ import GoPi from '../resources/pi/gopropi.png'
 import Wifi from '../resources/pi/router.webp'
 import Linefollowing from '../resources/pi/linefollowing.png'
 import linefollowingcircuite from '../resources/pi/linefollowingcircuite.png'
+import ReGen from '../resources/pi/RegenDrive.png'
 
 function Raspberry() {
   return (
@@ -28,7 +29,7 @@ function Raspberry() {
           <p><strong>YOLO Deep Learning Model:</strong> The YOLO model is known for its speed and accuracy in detecting objects, with the ability to process video frames in real time while drawing bounding boxes around detected objects. The model can classify and detect multiple objects simultaneously, including humans, vehicles, animals, and more.</p> <br></br>
           <p><strong>Video Frame Capture:</strong> The system continuously captures frames from a camera connected to the Raspberry Pi. These frames are passed through the YOLO model for object detection, with results rendered on the display, showing the bounding boxes and object labels.</p> <br></br>
           <p><strong>Near Real-time Feedback:</strong> The setup provides near real-time feedback, making it suitable for applications such as surveillance, automation, or robotics, where quick object recognition and response are critical.</p> <br></br>
-          <h4><span class="mdi--plus"></span>&nbsp;&nbsp;&nbsp;Line Following Robot with ReGen</h4>
+          <h4><span class="mdi--plus"></span>&nbsp;&nbsp;&nbsp;ReGen Line Following Robot</h4>
           <br></br>
           <p>In this project, I developed a line-following robot equipped with regenerative braking, designed for competitions where the robot must solve mazes, avoid obstacles, and perform specific tasks. The system utilizes a Raspberry Pi to store the robot’s path and employs machine learning algorithms to optimize battery usage and charging time, ensuring efficient performance during competition tasks.</p><br></br>
           <br></br>
@@ -53,9 +54,9 @@ function Raspberry() {
           <br></br>
           <p>In this project, I transformed a Raspberry Pi into a fully functional media server, allowing for seamless media streaming and file sharing across multiple devices. This lightweight, cost-effective solution enables users to store, organize, and stream digital media such as movies, music, and photos directly to any device connected to the network.</p>
           <br></br>
+          <img id='wifi_image' src={Wifi}></img>
           <p><strong>File Sharing & Storage:</strong> The server is also set up for file sharing, making it easy to access and store files such as documents, media, and backups from any networked device. This feature is perfect for centralized file management in a home or small office environment.</p><br></br>
           <p><strong>Efficient Resource Usage:</strong> The Raspberry Pi, with its low power consumption and compact size, serves as a cost-effective and energy-efficient alternative to traditional media servers, making it ideal for personal use or small-scale deployments.</p><br></br>
-          <img id='wifi_image' src={Wifi}></img>
           <p><strong>Multi-device Support:</strong> The media server can stream content to multiple devices simultaneously without compromising quality. It supports multiple streaming formats and can transcode media files on the fly to ensure compatibility with various devices.</p>
           <p><strong>Remote Access:</strong> With remote access capabilities, users can stream their media library even when they are outside the home network, enabling a portable media experience.</p>
           <br></br>
@@ -63,12 +64,14 @@ function Raspberry() {
           <br></br>
           <br></br>
           <br></br>
-          <img id='linefollowingcircute' src={linefollowingcircuite}></img>
+          <img id='pi_image_pi_board' src={ReGen}></img>
           <br></br>
           <br></br>
           <p><strong>Technologies Used:</strong> Raspberry Pi, Machine Learning Algorithms (Python), Regenerative Braking System, Line-Following Sensors, Obstacle Detection Sensors</p>
           <br></br>
           <p>This project demonstrates my ability to integrate advanced robotics, machine learning, and energy efficiency technologies into a single system, making it highly suitable for competitive environments where performance and endurance are critical.</p>
+          <br></br>
+         
         </div>
         <div className='Raspberry_Layout_3'>
           <p>Control Electronic Components For Physical Computing & Explore the Internet Of Things (IoT).</p>
